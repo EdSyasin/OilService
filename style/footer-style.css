@@ -1,0 +1,50 @@
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 140px;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+}
+
+.fopter-logo-img{
+    height: 90px;
+}
+
+.footer-logo-text{
+    font-family: Pacifico;
+    color: white;
+    font-size: 60px;
+}
+
+footer .fake-btn{
+    border-radius: 15px;
+    padding: 30px 35px;
+    font-size: 40px;
+    font-family: Montserrat;
+    margin: 0;
+}
+
+.after-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 90px 0;
+}
+
+.after-footer-logo{
+    font-family: Pacifico;
+    color: white;
+    font-size: 30px;
+}
+
+.after-footer-rights{
+    font-family: Montserrat;
+    color: white;
+    font-size: 20px;
+}

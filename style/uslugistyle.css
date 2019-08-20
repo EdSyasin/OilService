@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Pacifico";
+    src: url("fonts/Pacifico-Regular_0.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat-Black";
+    src: url("fonts/Montserrat-Black.ttf");
+}
+
+
+.uslugi-block{
+    display: flex;
+    flex-direction: column;
+    padding: 0 110px;
+    margin-top: 90px;
+}
+
+.uslugi-title{
+    font-family: Montserrat;
+    color: white;
+    font-size: 40px;
+    padding: 0 129px;
+    text-align: center;
+}
+
+.uslugi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 185px;
+    font-family: Montserrat;
+    padding: 0 435px;
+}
+
+.uslugi .title{
+    margin-bottom: 60px;
+}
+
+.all-marks{
+    color: yellow;
+    margin: 60px 0;
+    text-align: center;
+}
+
+.phone{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.ind{
+    font-size: 30px;
+}

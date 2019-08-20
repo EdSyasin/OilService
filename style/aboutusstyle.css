@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "Pacifico";
+    src: url("fonts/Pacifico-Regular_0.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat-Black";
+    src: url("fonts/Montserrat-Black.ttf");
+}
+
+.aboutus-block{
+    padding: 0 110px;
+    color: white;
+    margin-top: 100px;
+    position: relative;
+    z-index: 2;
+}
+
+.aboutus-block *{
+    position: relative;
+    z-index: 4;
+}
+
+.cars-2{
+    position: absolute;
+    right: 110px;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.aboutus-bigword-1{
+    display: flex;
+    justify-content: flex-end;
+    font-family: Montserrat;
+}
+
+.aboutus-bigword-1 .small, .aboutus-bigword-1 .big{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutus-bigword-1 .small{
+    font-size: 50px;
+    width: 295px;
+}
+
+.aboutus-bigword-1 .big{
+    font-size: 135px;
+}
+
+
+
+
+
+
+
+.aboutus-bigword-2{
+    display: flex;
+    justify-content: flex-start;
+    font-family: Montserrat;
+}
+
+.aboutus-bigword-2 .small, .aboutus-bigword-2 .big{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutus-bigword-2 .small{
+    font-size: 50px;
+    width: 325px;
+    margin-left: 10px;
+}
+
+.aboutus-bigword-2 .big{
+    font-size: 135px;
+}
+
+
+
+
+
+
+.aboutus-bigword-3{
+    display: flex;
+    justify-content: flex-end ;
+    font-family: Montserrat;
+}
+
+.aboutus-bigword-3 .small, .aboutus-bigword-3 .big{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutus-bigword-3 .small{
+    font-size: 50px;
+    width: 360px;
+    margin-left: 10px;
+}
+
+.aboutus-bigword-3 .big{
+    font-size: 135px;
+}
