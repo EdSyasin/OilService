@@ -108,3 +108,13 @@
 .aboutus-bigword-3 .big{
     font-size: 135px;
 }
+
+
+@media (max-width: 1440px){
+
+    .aboutus-bigword-1 .big, .aboutus-bigword-2 .big, .aboutus-bigword-3 .big{
+        font-size: 80px !important;
+
+    }
+
+}

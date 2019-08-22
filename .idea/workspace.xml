@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a3fb1c5-4d6c-43d8-a172-cd82364aca85" name="Default Changelist" comment="" />
+    <list default="true" id="8a3fb1c5-4d6c-43d8-a172-cd82364aca85" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/aboutusstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/aboutusstyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/uslugistyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/uslugistyle.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +25,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1P6yjGNtoeCDRQJ2y7fwrADXeIz" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../uni-dubna/goodschool/www" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -61,10 +69,23 @@
       <workItem from="1565208978229" duration="1652000" />
       <workItem from="1565214658996" duration="2464000" />
       <workItem from="1565270685622" duration="5167000" />
+      <workItem from="1566290840195" duration="650000" />
+      <workItem from="1566476464393" duration="1995000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

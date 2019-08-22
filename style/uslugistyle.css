@@ -41,6 +41,11 @@
     padding: 0 435px;
 }
 
+.uslugi span{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 .uslugi .title{
     margin-bottom: 60px;
 }
@@ -58,4 +63,10 @@
 
 .ind{
     font-size: 30px;
+}
+
+@media (max-width: 1440px){
+    .uslugi{
+        padding: 0;
+    }
 }
