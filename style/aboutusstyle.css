@@ -118,3 +118,28 @@
     }
 
 }
+
+@media (max-width: 1092px){
+
+    .aboutus-bigword-1 .big, .aboutus-bigword-2 .big, .aboutus-bigword-3 .big{
+        font-size: 65px !important;
+    }
+
+    .aboutus-bigword-1 .small, .aboutus-bigword-2 .small, .aboutus-bigword-3 .small{
+        font-size: 40px !important;
+    }
+
+}
+
+@media(max-width: 820px){
+    .aboutus-block{
+        padding: 0 10px;
+    }
+    .aboutus-bigword-1 .big, .aboutus-bigword-2 .big, .aboutus-bigword-3 .big{
+        font-size: 36px !important;
+    }
+
+    .aboutus-bigword-1 .small, .aboutus-bigword-2 .small, .aboutus-bigword-3 .small{
+        font-size: 13px !important;
+    }
+}

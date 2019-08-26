@@ -142,3 +142,46 @@ header{
     margin-right: 30px;
     margin-bottom: 15px;
 }
+
+@media (max-width: 1335px){
+    header .navbar{
+        width: 45%;
+    }
+}
+
+@media (max-width: 1024px){
+    header .navbar, header .header-contact{
+        display: none;
+    }
+
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fake-btn-container{
+        width: 90%;
+    }
+}
+
+@media (max-width: 820px){
+
+    .deals-block{
+        margin-top: 10px;
+        padding: 0 10px;
+    }
+
+    .big-word{
+        font-size: 40px;
+    }
+
+    .under-big-words-description{
+        font-size: 20px;
+        width: auto;
+    }
+
+    .fake-btn-container .fake-btn{
+        font-size: 10px;
+    }
+}
