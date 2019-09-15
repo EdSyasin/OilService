@@ -7,7 +7,6 @@
       <change beforePath="$PROJECT_DIR$/style/aboutusstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/aboutusstyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/footer-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/footer-style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/uslugistyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/uslugistyle.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,6 +80,8 @@
       <workItem from="1566676024878" duration="662000" />
       <workItem from="1566690075880" duration="605000" />
       <workItem from="1566732184314" duration="6757000" />
+      <workItem from="1567346978569" duration="10000" />
+      <workItem from="1568549370912" duration="6108000" />
     </task>
     <servers />
   </component>
