@@ -30,6 +30,47 @@ header{
     padding: 0 80px;
     display: flex;
     justify-content: space-between;
+    position: relative;
+}
+
+
+
+.burger-btn{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    top: 25px;
+    left: 30px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    display: none;
+}
+
+.burger-btn .line{
+    width: 100%;
+    height: 3px;
+    background: yellow;
+}
+
+.phone-btn{
+    display: none;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+.phone-btn .img{
+    width: 30px;
+    height: 30px;
+}
+
+.header-contact a {
+    text-decoration: none;
+    color: white;
 }
 
 .header-contact, .logo{
@@ -148,6 +189,14 @@ header{
     margin-bottom: 15px;
 }
 
+.n1{
+    color: yellow;
+    position: absolute;
+    font-size: 25px;
+    font-family: Montserrat;
+    right: 200px;
+}
+
 @media (max-width: 1335px){
     header .navbar{
         width: 45%;
@@ -168,9 +217,19 @@ header{
     .fake-btn-container{
         width: 90%;
     }
+
+    .n1{
+        position: relative;
+        right: auto;
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 820px){
+
+    header{
+        margin-top: 20px;
+    }
 
     .deals-block{
         margin-top: 10px;
@@ -183,10 +242,24 @@ header{
 
     .under-big-words-description{
         font-size: 20px;
-        width: auto;
+        width: 77%;
+        margin: 10px 0;
+    }
+
+    .fake-btn-container{
+        width: 100%;
     }
 
     .fake-btn-container .fake-btn{
         font-size: 10px;
+        margin-right: 10px;
+    }
+
+    .burger-btn{
+        display: flex;
+    }
+
+    .phone-btn{
+        display: block;
     }
 }

@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a3fb1c5-4d6c-43d8-a172-cd82364aca85" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/OilService-big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cars3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/phone-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/mobile-menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/mobilemenu.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cars2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/cars2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/aboutusstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/aboutusstyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/footer-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/footer-style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/uslugistyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/uslugistyle.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +34,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -42,6 +50,11 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\123\Projects\OilService\img" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -82,6 +95,10 @@
       <workItem from="1566732184314" duration="6757000" />
       <workItem from="1567346978569" duration="10000" />
       <workItem from="1568549370912" duration="6108000" />
+      <workItem from="1568617767173" duration="2100000" />
+      <workItem from="1568624411740" duration="7645000" />
+      <workItem from="1568706137023" duration="2376000" />
+      <workItem from="1568715821631" duration="8719000" />
     </task>
     <servers />
   </component>

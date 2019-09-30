@@ -19,6 +19,7 @@
     flex-direction: column;
     padding: 0 110px;
     margin-top: 90px;
+    position: relative;
 }
 
 .uslugi-title{
@@ -36,7 +37,7 @@
     align-items: center;
     color: white;
     font-size: 40px;
-    margin-top: 185px;
+    margin-top: 120px;
     font-family: Montserrat;
     padding: 0 435px;
 }
@@ -44,6 +45,8 @@
 .uslugi span{
     text-align: center;
     margin-bottom: 10px;
+    position: relative;
+    z-index: 2;
 }
 
 .uslugi .title{
@@ -63,6 +66,31 @@
 
 .ind{
     font-size: 30px;
+}
+
+.cars-3{
+    position: absolute;
+    width: 99vw;
+    z-index: 1;
+}
+
+.ghost-container{
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    width: 100%;
+    top: 10px;
+}
+
+.uslugi-ghost{
+    font-family: Pacifico;
+    color: yellow;
+    font-size: 300px;
+    line-height: 300px;
+    width: 85%;
 }
 
 @media (max-width: 1440px){
@@ -108,4 +136,10 @@
         font-size: 15px;
         margin-top: 20px;
     }
+
+
+    .ghost-container{
+        top: 60px;
+    }
+
 }

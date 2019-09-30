@@ -13,177 +13,211 @@
     src: url("fonts/Montserrat-Black.ttf");
 }
 
-.aboutus-block{
+.aboutus-block {
     padding: 0 110px;
     color: white;
-    margin-top: 100px;
+    margin-top: 150px;
     position: relative;
     z-index: 2;
 }
 
-.aboutus-block *{
+.aboutus-block * {
     position: relative;
     z-index: 4;
 }
 
-.cars-2{
+.cars-2 {
     position: absolute;
     right: 110px;
     height: 100%;
     opacity: 0.5;
 }
 
-.aboutus-bigword-1 .big, .aboutus-bigword-2 .big, .aboutus-bigword-3 .big{
+.aboutus-bigword-1 .big, .aboutus-bigword-2 .big, .aboutus-bigword-3 .big {
     font-family: Montserrat-Bold;
+    color: darkgray;
+    mix-blend-mode: lighten;
 }
 
-.aboutus-bigword-1{
+.aboutus-bigword-1 {
     display: flex;
     justify-content: flex-end;
     font-family: Montserrat;
 }
 
-.aboutus-bigword-1 .small, .aboutus-bigword-1 .big{
+.aboutus-bigword-1 .small, .aboutus-bigword-1 .big {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.aboutus-bigword-1 .small{
+.aboutus-bigword-1 .small {
     font-size: 50px;
     width: 295px;
 }
 
-.aboutus-bigword-1 .big{
+.aboutus-bigword-1 .big {
     font-size: 135px;
 }
 
 
-
-
-
-
-
-.aboutus-bigword-2{
+.aboutus-bigword-2 {
     display: flex;
     justify-content: flex-start;
     font-family: Montserrat;
+    margin: 90px 0;
 }
 
-.aboutus-bigword-2 .small, .aboutus-bigword-2 .big{
+.aboutus-bigword-2 .small, .aboutus-bigword-2 .big {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.aboutus-bigword-2 .small{
+.aboutus-bigword-2 .small {
     font-size: 50px;
     width: 325px;
     margin-left: 10px;
 }
 
-.aboutus-bigword-2 .big{
+.aboutus-bigword-2 .big {
     font-size: 135px;
 }
 
 
-
-
-
-
-.aboutus-bigword-3{
+.aboutus-bigword-3 {
     display: flex;
-    justify-content: flex-end ;
+    justify-content: flex-end;
     font-family: Montserrat;
 }
 
-.aboutus-bigword-3 .small, .aboutus-bigword-3 .big{
+.aboutus-bigword-3 .small, .aboutus-bigword-3 .big {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.aboutus-bigword-3 .small{
+.aboutus-bigword-3 .small {
     font-size: 50px;
     width: 360px;
     margin-left: 10px;
 }
 
-.aboutus-bigword-3 .big{
+.aboutus-bigword-3 .big {
     font-size: 135px;
 }
 
 
-@media (max-width: 1440px){
+.ghost-1, .ghost-2, .ghost-3 {
+    color: yellow;
+    opacity: 0.05;
+    font-family: Montserrat-Black;
+    font-size: 300px;
+    position: absolute;
+    line-height: 300px;
+}
 
-    .aboutus-bigword-1 .big, .aboutus-bigword-2 .big, .aboutus-bigword-3 .big{
+.ghost-1 {
+    left: -150px;
+    bottom: -30px;
+}
+
+.ghost-2 {
+    left: -85px;
+    bottom: -55px;
+    white-space: nowrap;
+}
+
+.ghost-3 {
+    left: -230px;
+    bottom: -80px;
+}
+
+@media (max-width: 1440px) {
+
+    .aboutus-bigword-1 .big, .aboutus-bigword-2 .big, .aboutus-bigword-3 .big {
         font-size: 80px !important;
 
     }
 
 }
 
-@media (max-width: 1092px){
+@media (max-width: 1092px) {
 
-    .aboutus-bigword-1 .big, .aboutus-bigword-2 .big, .aboutus-bigword-3 .big{
+    .aboutus-bigword-1 .big, .aboutus-bigword-2 .big, .aboutus-bigword-3 .big {
         font-size: 65px !important;
     }
 
-    .aboutus-bigword-1 .small, .aboutus-bigword-2 .small, .aboutus-bigword-3 .small{
+    .aboutus-bigword-1 .small, .aboutus-bigword-2 .small, .aboutus-bigword-3 .small {
         font-size: 40px !important;
     }
 
 }
 
-@media(max-width: 1006px){
-    .aboutus-block{
+@media (max-width: 1006px) {
+    .aboutus-block {
         padding: 0 70px;
     }
 
-    .aboutus-bigword-1 .big, .aboutus-bigword-2 .big, .aboutus-bigword-3 .big{
+    .aboutus-bigword-1 .big, .aboutus-bigword-2 .big, .aboutus-bigword-3 .big {
         font-size: 65px !important;
     }
 
-    .aboutus-bigword-1 .small, .aboutus-bigword-2 .small, .aboutus-bigword-3 .small{
+    .aboutus-bigword-1 .small, .aboutus-bigword-2 .small, .aboutus-bigword-3 .small {
         font-size: 40px !important;
     }
 }
 
-@media(max-width: 930px){
-    .aboutus-block{
+@media (max-width: 930px) {
+    .aboutus-block {
         padding: 0 70px;
     }
 
-    .aboutus-bigword-1 .big, .aboutus-bigword-2 .big, .aboutus-bigword-3 .big{
+    .aboutus-bigword-1 .big, .aboutus-bigword-2 .big, .aboutus-bigword-3 .big {
         font-size: 40px !important;
 
     }
 
-    .aboutus-bigword-1 .small, .aboutus-bigword-2 .small, .aboutus-bigword-3 .small{
+    .aboutus-bigword-1 .small, .aboutus-bigword-2 .small, .aboutus-bigword-3 .small {
         font-size: 20px !important;
         width: 30%;
     }
 
-    .cars-2{
+    .aboutus-bigword-2{
+        margin: 40px 0 ;
+    }
+
+    .cars-2 {
         position: absolute;
         right: 10px;
-        top: -100px;
+        top: -30px;
         height: auto;
         width: 100%;
         opacity: 0.5;
     }
+
+    .ghost-1, .ghost-2, .ghost-3 {
+        color: yellow;
+        opacity: 0.05;
+        font-family: Montserrat-Black;
+        font-size: 80px;
+        position: absolute;
+        line-height: 300px;
+        left: 0;
+        bottom: auto;
+    }
 }
 
-@media(max-width: 530px){
-    .aboutus-block{
+@media (max-width: 530px) {
+    .aboutus-block {
         padding: 0 10px;
     }
 
-    .aboutus-bigword-1 .big, .aboutus-bigword-2 .big, .aboutus-bigword-3 .big{
+    .aboutus-bigword-1 .big, .aboutus-bigword-2 .big, .aboutus-bigword-3 .big {
         font-size: 36px !important;
     }
 
-    .aboutus-bigword-1 .small, .aboutus-bigword-2 .small, .aboutus-bigword-3 .small{
+    .aboutus-bigword-1 .small, .aboutus-bigword-2 .small, .aboutus-bigword-3 .small {
         font-size: 15px !important;
         width: 30%;
     }

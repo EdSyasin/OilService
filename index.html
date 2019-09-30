@@ -8,32 +8,54 @@
     <link href="style/aboutusstyle.css" rel="stylesheet">
     <link href="style/uslugistyle.css" rel="stylesheet">
     <link href="style/footer-style.css" rel="stylesheet">
+    <link href="style/mobilemenu.css" rel="stylesheet">
 </head>
 <body>
+<div class="mobile-menu" id="mm">
+    <div class="bg" id="mobile-menu-background"></div>
+    <div class="mobile-menu-btn-container">
+        <a href="#uslugi" class="mobile-link" onclick="nenajatine()">услуги</a>
+        <a href="#contacts" class="mobile-link" onclick="nenajatine()">контакты</a>
+        <a href="#aboutus" class="mobile-link" onclick="nenajatine()">о нас</a>
+    </div>
+</div>
 <header>
+
+    <div id="burger-btn" class="burger-btn" onclick="najatine()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+
+    <a href="tel:+7 (967) 431-55-22" class="phone-btn">
+        <img class="logo-img" src="img/phone-icon.png">
+    </a>
+
     <div id="header-logo" class="logo">
         <img class="logo-img" src="img/oil%20drop.png">
         <span class="logo-text">OilService</span>
     </div>
+
     <div id="header-navbar" class="navbar">
         <div id="navbar-item-1" class="navbar-item">
-            <a href="#" class="navbar-link">услуги</a>
+            <a href="#uslugi" class="navbar-link">услуги</a>
             <div class="navbar-link-decoration"></div>
         </div>
         <div id="navbar-item-2" class="navbar-item">
-            <a href="#" class="navbar-link">контакты</a>
+            <a href="#contacts" class="navbar-link">контакты</a>
             <div class="navbar-link-decoration"></div>
         </div>
         <div id="navbar-item-3" class="navbar-item">
-            <a href="#" class="navbar-link">о нас</a>
+            <a href="#aboutus" class="navbar-link">о нас</a>
             <div class="navbar-link-decoration"></div>
         </div>
     </div>
     <div id="header-contact" class="header-contact">
-        +7 (967) 431-55-22
+        <a href="tel:+7 (967) 431-55-22">+7 (967) 431-55-22</a>
     </div>
 </header>
 <section id="deals" class="deals-block">
+    <span class="n1">Мы - №1 в Тульской области</span>
     <div class="big-words">
         <span class="big-word">качество</span>
         <span class="big-word">скорость</span>
@@ -52,28 +74,37 @@
     </div>
     <img src="img/cars1.jpg" class="cars-1">
 </section>
-<section id="aboutus" class="aboutus-block">
+<section id="aboutus" class="aboutus-block" name="aboutus">
     <img src="img/cars2.jpg" class="cars-2">
     <div class="aboutus-bigword-1">
-        <span class="small">РАБОТАЕМ ДЛЯ ВАС</span>
+        <span class="small">
+            <span class="ghost-1">2011</span>
+            РАБОТАЕМ ДЛЯ ВАС</span>
         <span class="big">С 2011 ГОДА</span>
     </div>
 
     <div class="aboutus-bigword-2">
-        <span class="big">8 ЛЕТ</span>
+        <span class="big">
+            <span class="ghost-2">8 ЛЕТ</span>
+            8 ЛЕТ</span>
         <span class="small">УСПЕШНОЙ РАБОТЫ</span>
     </div>
 
     <div class="aboutus-bigword-3">
-        <span class="big">БОЛЕЕ 1000</span>
+        <span class="big">
+            <span class="ghost-3">1000</span>
+            БОЛЕЕ 1000</span>
         <span class="small">ДОВОЛЬНЫХ КЛИЕНТОВ</span>
     </div>
 </section>
+<section id="uslugi" class="uslugi-block" name="uslugi">
+    <div class="ghost-container">
+        <img class="uslugi-ghost" src="img/OilService-big.png">
+    </div>
 
-
-<section id="uslugi" class="uslugi-block">
     <span class="uslugi-title">За 8 лет мы разрослись из небольшого сервиса в крупное предприятие по обслуживанию и ремонту автомобилей</span>
     <div class="uslugi">
+        <img src="img/cars3.png" class="cars-3">
         <span class="title">У нас вы можете:</span>
         <span class="li">пройти диагностику</span>
         <span class="li">заказать запчасти (самовывоз)</span>
@@ -88,14 +119,14 @@
 
     </div>
 </section>
-<footer>
+<footer >
     <div id="footer-logo" class="footer-logo">
         <img class="fopter-logo-img" src="img/oil%20drop.png">
         <span class="footer-logo-text">OilService</span>
     </div>
-    <div class="fake-btn fake-btn-phone">
+    <a href="tel: +7 (967) 431-55-22" class="fake-btn fake-btn-phone" id="contacts">
         +7 (967) 431-55-22
-    </div>
+    </a>
     <div class="fake-btn fake-btn-text">
         г.Узловая, ул.Советская, д.13
     </div>
@@ -104,5 +135,7 @@
     <span class="after-footer-logo">OilService, 2019</span>
     <span class="after-footer-rights">все права защищены</span>
 </div>
+
+<script src="js/mobile-menu.js"></script>
 </body>
 </html>
